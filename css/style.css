@@ -92,7 +92,7 @@ p  { color: var(--text-muted); line-height: 1.55; }
 
 /* Logo — header */
 .logo { display: flex; flex-direction: row; align-items: center; flex-shrink: 0; gap: 0.875rem; text-decoration: none; }
-.logo img { height: 64px; width: auto; }
+.logo img { height: 72px; width: auto; }
 .logo-sub {
   font-size: 0.6rem;
   color: var(--text-muted);
@@ -878,13 +878,13 @@ textarea.form-control { min-height: 140px; resize: vertical; }
 }
 
 @media (max-width: 768px) {
-  :root { --header-h: 72px; }
+  :root { --header-h: 80px; }
   h1 { font-size: clamp(1.875rem, 8vw, 2.5rem); }
   .section { padding-block: 4rem; }
   .nav { display: none; }
   .btn-nav { display: none; }
   .hamburger { display: flex; }
-  .logo img { height: 46px; }
+  .logo img { height: 58px; }
   .cat-grid { grid-template-columns: 1fr; }
   .cat-card { height: 260px; }
   .value-grid { grid-template-columns: 1fr; }
