@@ -160,7 +160,7 @@
       const btn = form.querySelector('[type=submit]');
       btn.textContent = 'Sending…';
       btn.disabled = true;
-      fetch('https://formspree.io/f/mbdqvlnk', {
+      fetch('https://formsubmit.co/ajax/info@smbchem.com', {
         method: 'POST',
         body: new FormData(form),
         headers: { 'Accept': 'application/json' }
